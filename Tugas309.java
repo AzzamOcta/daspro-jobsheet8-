@@ -9,7 +9,7 @@ public class Tugas309 {
 
         System.out.println("============================");
         
-        if (toko < 0) {
+        if (toko <= 0) {
             System.out.println("Jumlah toko harus > 0.");
         } else {
             int tokoTerbanyak = 0;
@@ -59,13 +59,6 @@ public class Tugas309 {
             
             System.out.println("Total barang seluruh toko: " + (int)totalSeluruh);
             System.out.println("Toko dengan barang terbanyak: " + tokoTerbanyak);
-            
-
-            
-
-            // int nomorToko = 1;
-            // int tokoTerbanyak = 0;
-            // int totalSeluruh;
         }
     }
 }
